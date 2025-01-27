@@ -34,8 +34,8 @@ export default function Home() {
     >
       <div className="max-w-4x1 mx-auto px-4 py-8">
         <div className="flex justify-end mb-8 space-x-4">
-          {/*<BackgroundToggle />
-          <ThemeToggle />*/}
+          {/*<BackgroundToggle />*/}
+          <ThemeToggle />
         </div>
         {/*<Introduction />
         <Projects />
