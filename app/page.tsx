@@ -37,11 +37,11 @@ export default function Home() {
           {/*<BackgroundToggle />
           <ThemeToggle />*/}
         </div>
-        // <Introduction />
-        // <Projects />
-        // <Skills />
-        // <Blog />
-        // <Contact />
+        {/*<Introduction />
+        <Projects />
+        <Skills />
+        <Blog />
+        <Contact />*/}
       </div>
     </motion.main>
   )
