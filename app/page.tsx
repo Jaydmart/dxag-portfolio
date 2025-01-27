@@ -27,7 +27,7 @@ export default function Home() {
 */
   return (
     <motion.main
-      className={`min-h-screen ${/*getBackgroundClass()*/}`}
+      // className={`min-h-screen ${getBackgroundClass()}`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
