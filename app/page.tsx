@@ -1,18 +1,19 @@
 "use client"
 
+/*
 import Introduction from "./components/Introduction"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 import Blog from "./components/Blog"
 import ThemeToggle from "./components/ThemeToggle"
-import BackgroundToggle from "./components/BackgroundToggle"
+import BackgroundToggle from "./components/BackgroundToggle" */
 import { useBackground } from "./context/BackgroundContext"
 import { motion } from "framer-motion"
 
 export default function Home() {
   const { backgroundStyle } = useBackground()
-
+/*
   const getBackgroundClass = () => {
     switch (backgroundStyle) {
       case "gradient":
@@ -23,7 +24,7 @@ export default function Home() {
         return: "bg-gray-100 dark:bg-gray-900"
     }
   }
-
+*/
   return (
     <motion.main
       className={`min-h-screen ${getBackgroundClass()}`}
