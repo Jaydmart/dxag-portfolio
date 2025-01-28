@@ -16,7 +16,7 @@ export default function ThemeToggle() {
       whileTap={{ scale: 0.9 }}
     >
       <motion.div initial={false} animate={{ rotate: theme === "light" ? 0 : 180 }} transition={{ duration: 0.3 }}>
-        {theme === "light" ? <Moon size={20 /> : <Sun size={20 />}
+        {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
       </motion.div>
     </motion.button>
   )
