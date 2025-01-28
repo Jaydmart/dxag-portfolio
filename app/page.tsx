@@ -39,8 +39,8 @@ export default function Home() {
           <ThemeToggle />
         </div>
         <Introduction />
-        {/*<Projects />
-        <Skills />
+        <Projects />
+        {/*<Skills />
         <Blog />
         <Contact />*/}
       </div>
