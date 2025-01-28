@@ -38,7 +38,7 @@ export default function Introduction() {
         </div>
         <div className="mb-8 md:mb-0">
           <Image
-            src="/images/david.jpg"
+            src="/profile-photo.png"
             alt="David Avila"
             width={200}
             height={200}
