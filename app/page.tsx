@@ -2,8 +2,8 @@
 
 import Introduction from "./components/Introduction"
 import Projects from "./components/Projects"
-/*
 import Skills from "./components/Skills"
+/*
 import Contact from "./components/Contact"
 import Blog from "./components/Blog"
 */
@@ -40,8 +40,8 @@ export default function Home() {
         </div>
         <Introduction />
         <Projects />
-        {/*<Skills />
-        <Blog />
+        <Skills />
+        {/*<Blog />
         <Contact />*/}
       </div>
     </motion.main>
