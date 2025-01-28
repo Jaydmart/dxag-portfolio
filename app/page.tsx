@@ -22,7 +22,7 @@ export default function Home() {
       case "pattern":
         return "bg-gray-100 dark:bg-gray-900 bg-opacity-50 dark:bg-opacity-50 backdrop-filter backdrop-blur-lg"
       default:
-        return: "bg-gray-100 dark:bg-gray-900"
+        return "bg-gray-100 dark:bg-gray-900"
     }
   }
 
