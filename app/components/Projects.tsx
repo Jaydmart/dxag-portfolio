@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const projects = [
   {
-    title: "E-commerce Platform"
+    title: "E-commerce Platform",
     description: "A full-tack e-commerce solution with React, Node.js, and MongoDB.",
     image: "/placeholder.svg?height=200&width=300",
     link: "https://github.com/johndoe/ecommerce",
