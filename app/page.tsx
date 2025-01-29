@@ -3,9 +3,7 @@
 import Introduction from "./components/Introduction"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-/*
 import Contact from "./components/Contact"
-*/
 import Blog from "./components/Blog"
 import ThemeToggle from "./components/ThemeToggle"
 import BackgroundToggle from "./components/BackgroundToggle" 
@@ -42,7 +40,7 @@ export default function Home() {
         <Projects />
         <Skills />
         <Blog />
-        {/*<Contact />*/}
+        <Contact />
       </div>
     </motion.main>
   )
