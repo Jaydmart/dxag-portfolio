@@ -65,7 +65,7 @@ const addToRemoveQueue = (toastId: string) => {
 
   const timeout = setTimeout(() => {
     toastTimeouts.delete(toastId)
-    dispatchEvent({
+    dispatch({
       type: "REMOVE_TOAST",
       toastId: toastId,
     })
@@ -85,7 +85,7 @@ export const reducer = (state: State, action: Action): State => {
     case "UPDATE_TOAST":
       return {
         ...state,
-        toasts:state.toasts.map((t) =>
+        toasts: state.toasts.map((t) =>
           t.id === action.toast.id ? { ...t, ...action.toast } : t
         ),
       }
@@ -124,12 +124,12 @@ export const reducer = (state: State, action: Action): State => {
       }
       return {
         ...state,
-        toasts: state.toasts.filter((t) => t.id !== action.tiastId),
+        toasts: state.toasts.filter((t) => t.id !== action.toastId),
       }
   }
 }
 
-const listeners: Array<(state: State) => void> =[]
+const listeners: Array<(state: State) => void> = []
 
 let memoryState: State = { toasts: [] }
 
@@ -143,7 +143,7 @@ function dispatch(action: Action) {
 type Toast = Omit<ToasterToast, "id">
 
 function toast({ ...props }: Toast) {
-  const id =genId()
+  const id = genId()
 
   const update = (props: ToasterToast) =>
     dispatch({
