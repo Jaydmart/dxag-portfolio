@@ -63,7 +63,7 @@ export default function Blog() {
       <div className="mt-8 text-center">
         <Link
           href="/blog"
-          className="bg-blue-500 hover:blue-600 text-white font-bold py-2 px-4 rounded dark:bg-blue-600 dark:hover:bg-blue-700"
+          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded dark:bg-blue-600 dark:hover:bg-blue-700"
         >
           View All Posts
         </Link>
