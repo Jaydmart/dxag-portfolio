@@ -1,6 +1,6 @@
 import "./globals.css"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Inter } from "next/font"
 import { ThemeProvider } from "./context/ThemeContext"
 import { BackgroundProvider } from "./context/BackgroundContext"
 
