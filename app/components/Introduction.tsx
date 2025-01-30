@@ -9,7 +9,10 @@ export default function Introduction() {
           <h1 className="text-4xl font-bold mb-4 dark:text-white">David Avila</h1>
           <h2 className="text-2xl text-gray-600 dark:text-gray-300 mb-4">Full Stack Developer</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Passionate about creating elegant, efficient, and user-friendly web applications. With 5 years of experience in both front-end, back-end development, and the tech industry. I specialize in building full-stack applications using modern technologies.
+            Passionate about creating elegant, efficient, and user-friendly web applications. With 10 years of experience in both front-end and back-end development, and in the tech industry. I specialize in building full-stack applications using modern technologies.
+          </p>
+          <p className="text-gray-600 dark:text-gray-300 mb-6">
+            Driving Excellence, Advancing Growth.
           </p>
           <div className="flex space-x-4">
             <a
