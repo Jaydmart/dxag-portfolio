@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Image from "next/image"
 
 const projects = [
   {
     title: "E-commerce Platform",
-    description: "A full-tack e-commerce solution with React, Node.js, and MongoDB.",
+    description: "A full-stack e-commerce solution with React, Node.js, and MongoDB.",
     image: "/placeholder.svg?height=200&width=300",
     link: "https://github.com/johndoe/ecommerce",
   },
@@ -24,7 +24,7 @@ const projects = [
 export default function Projects() {
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-8 dar:text-white">Projects</h2>
+      <h2 className="text-3xl font-bold mb-8 dark:text-white">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
