@@ -20,7 +20,7 @@ const skills = [
 export default function Skills() {
   return (
     <section className="mb-16">
-      <h2 className="text-3x1 font-bold mb-8 dark:text-white">Skills</h2>
+      <h2 className="text-3xl font-bold mb-8 dark:text-white">Skills</h2>
       <div className="flex flex-wrap gap-4">
         {skills.map((skill, index) => (
           <span
