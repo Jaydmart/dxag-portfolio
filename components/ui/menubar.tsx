@@ -23,4 +23,16 @@ const Menubar = React.forwardRef<
   <MenubarPrimitive.Root
     ref={ref}
     className={cn(
-      "flex h-10 items-center space-x-1 rounded-md border bg-background
+      "flex h-10 items-center space-x-1 rounded-md border bg-background p-1",
+      className
+    )}
+    {...props}
+  />
+))
+Menubar.displayName = MenubarPrimitive.Root.displayName
+
+const MenubarTrigger = React.forwardRef<
+  React.ElementRef<typeof MenubarPrimitive.Trigger>,
+  React.ComponentPropsWithoutRef<typeof MenubarPrimitive.Trigger>
+>(({ className, ...props }, ref) => (
+  
